@@ -9,60 +9,45 @@
 	<div class="container">
 		<img src="logo.jpg">
 		<form method="post" action="carteirinha2.php">	  
-			<h1>IEADM Santo Antônio do Fontoura - MT</h1>
-			<h6>Pr. Presidente: Alcides Martins Leal</h6>
-			<br>
-			<br>
-			<br>
 			<h1>Emissão de Carteiras de Membros</h1>
 			<br>
-			<br>
-			<br>
 			<div class="form-row">
-			    <div class="col-12">
+			    <div class="col-md-2">
 			    	<span>NOME</span>
 					<input type="text" class="form-control" name="nome">
 				 </div>
-				 <div class="col-3">
+				 <div class="col-md-2">
 					<span>FUNÇÃO</span>
 					<input type="text" name="funcao" class="form-control">
 				</div>
-				<div class="col-3">
+				<div class="col-md-2">
 					<span>ESTADO CIVIL</span>	
 				    <input type="text" name="estadocivil" class="form-control">
 				</div>
-				<div class="col-3">
+				<div class="col-md-2">
 					<span>GENERO</span>
 					<input type="text" name="sexo" class="form-control">
 				</div>
-				<div class="col-3">
+				<div class="col-md-2">
 					<span>DATA DE NASCIMENTO</span>
 					<input type="text" name="nascimento" class="form-control">
 				</div>
-				<div class="col-3">
+				<div class="col-md-2">
 					<span>NATURALIDADE</span>
 					<input type="text" name="naturalidade" class="form-control">
 				</div>
-				<div class="col-3">
+				<div class="col-md-2">
 					<span>NACIONALIDADE</span>
 					<input type="text" name="nacionalidade" class="form-control">
 				</div>
-				<div class="col-3">
+				<div class="col-md-2">
 					<span>ESTADO</span>
 					<input type="text" name="estado" class="form-control">
 				</div>	
-				<div class="col-3">
-					<span>DATA DO BATISMO</span>
-					<input type="text" name="batismo" class="form-control">
-				</div> 
-				<div class="col-12">
-					<span>NOME DO PAI</span>
-					<input type="text" class="form-control" name="pai">
-				</div> 
-				<div class="col-12">
-					<span>NOME DA MÃE</span>
-					<input type="text" class="form-control" name="mae">
-				</div>
+				<div class="col-md-2">
+					<span>CPF</span>
+					<input type="text" name="cpf" class="form-control">
+				</div>				
 			</div>
 			<br>
 			<button type="submit" class="btn btn-primary">EMITIR CARTEIRINHA</button>
