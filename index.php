@@ -35,7 +35,7 @@
 
 			<div class="form-group">
 				<span>DATA DE NASCIMENTO</span>
-				<input type="date" name="nascimento" class="form-control">nome">
+				<input type="date" name="nascimento" class="form-control">
 			</div>
 
 			<div class="form-group">
@@ -59,7 +59,7 @@
 			</div>
 
 			<br>
-			
+
 			<button type="submit" class="btn btn-primary">EMITIR CARTEIRINHA</button>
 		</form>
 		
