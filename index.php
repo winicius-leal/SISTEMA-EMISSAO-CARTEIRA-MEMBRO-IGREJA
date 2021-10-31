@@ -14,12 +14,12 @@
 			<h1>Emissão de Carteiras de Membros</h1>
 			<br>
 			<div class="form-group">
-			    <span>NOME</span>
+			    <span>NOME DO MEMBRO</span>
 				<input type="text" class="form-control" name="nome">
 			</div>
 
 			<div class="form-group">
-				<span>FUNÇÃO</span>
+				<span>FUNÇÃO DO MEMBRO</span>
 				<input type="text" name="funcao" class="form-control">
 			</div>
 
@@ -30,7 +30,7 @@
 
 			<div class="form-group">
 				<span>GENERO</span>
-				<input type="text" name="sexo" class="form-control">
+				<input type="text" name="sexo" class="form-control" placeholder="Masculino ou Feminio">
 			</div>
 
 			<div class="form-group">
@@ -39,18 +39,18 @@
 			</div>
 
 			<div class="form-group">
-				<span>NATURALIDADE</span>
+				<span>CIDADE ONDE NASCEU </span>
 				<input type="text" name="naturalidade" class="form-control">
 			</div>
 
 			<div class="form-group">
-				<span>NACIONALIDADE</span>
+				<span>PAÍS ONDE NASCEU</span>
 				<input type="text" name="nacionalidade" class="form-control">
 			</div>
 
 			<div class="form-group">
-				<span>NACIONALIDADE</span>
-				<input type="text" name="nacionalidade" class="form-control">
+				<span>ESTADO ONDE NASCEU</span>
+				<input type="text" name="estado" class="form-control">
 			</div>
 
 			<div class="form-group">
