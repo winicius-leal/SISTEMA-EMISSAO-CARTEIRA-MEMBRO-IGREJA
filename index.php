@@ -8,50 +8,61 @@
 	
 	<div class="container">
 		<img src="logo.jpg">
+		
+		
 		<form method="post" action="carteirinha2.php">	  
 			<h1>Emissão de Carteiras de Membros</h1>
 			<br>
-			<div class="form-row">
-			    <div class="col-md-2">
-			    	<span>NOME</span>
-					<input type="text" class="form-control" name="nome">
-				 </div>
-				 <div class="col-md-2">
-					<span>FUNÇÃO</span>
-					<input type="text" name="funcao" class="form-control">
-				</div>
-				<div class="col-md-2">
-					<span>ESTADO CIVIL</span>	
-				    <input type="text" name="estadocivil" class="form-control">
-				</div>
-				<div class="col-md-2">
-					<span>GENERO</span>
-					<input type="text" name="sexo" class="form-control">
-				</div>
-				<div class="col-md-2">
-					<span>DATA DE NASCIMENTO</span>
-					<input type="text" name="nascimento" class="form-control">
-				</div>
-				<div class="col-md-2">
-					<span>NATURALIDADE</span>
-					<input type="text" name="naturalidade" class="form-control">
-				</div>
-				<div class="col-md-2">
-					<span>NACIONALIDADE</span>
-					<input type="text" name="nacionalidade" class="form-control">
-				</div>
-				<div class="col-md-2">
-					<span>ESTADO</span>
-					<input type="text" name="estado" class="form-control">
-				</div>	
-				<div class="col-md-2">
-					<span>CPF</span>
-					<input type="text" name="cpf" class="form-control">
-				</div>				
+			<div class="form-group">
+			    <span>NOME</span>
+				<input type="text" class="form-control" name="nome">
 			</div>
+
+			<div class="form-group">
+				<span>FUNÇÃO</span>
+				<input type="text" name="funcao" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<span>ESTADO CIVIL</span>	
+			    <input type="text" name="estadocivil" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<span>GENERO</span>
+				<input type="text" name="sexo" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<span>DATA DE NASCIMENTO</span>
+				<input type="date" name="nascimento" class="form-control">nome">
+			</div>
+
+			<div class="form-group">
+				<span>NATURALIDADE</span>
+				<input type="text" name="naturalidade" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<span>NACIONALIDADE</span>
+				<input type="text" name="nacionalidade" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<span>NACIONALIDADE</span>
+				<input type="text" name="nacionalidade" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<span>CPF</span>
+				<input type="text" name="cpf" class="form-control">
+			</div>
+
 			<br>
+			
 			<button type="submit" class="btn btn-primary">EMITIR CARTEIRINHA</button>
 		</form>
+		
 		
 	</div>
 	<div >

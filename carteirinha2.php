@@ -12,13 +12,27 @@ $estado = $_POST['estado'];
 $expedido = date('d/m/Y');
 $cpf = $_POST['cpf'];
 
+$nascimento = str_replace("-","/",$nascimento);
+
+$nome = strtoupper($nome);
+$funcao = strtoupper($funcao);
+$estadocivil = strtoupper($estadocivil);
+$sexo = strtoupper($sexo);
+$naturalidade = strtoupper($naturalidade);
+$nacionalidade = strtoupper($nacionalidade);
+$estado = strtoupper($estado);
+
+
+
+
+
+
 
 
 header("Content-Type: image/png");
 
 
-
-$file = "novo.png";
+$file = "novo_layout.png";
 
 $new_width = 1000;
 $new_height = 328;
@@ -33,23 +47,26 @@ $old_image = imagecreatefrompng($file);
 
 imagecopyresampled($new_image, $old_image, 0, 0, 0, 0, $new_width, $new_height, $old_width, $old_height);
 
+//cor do texto que será inserido na imagem
 $textColor = imagecolorallocate($new_image, 0, 0, 0);
 
 
 
-imagestring($new_image, 5, 150, 196, $nome, $textColor);
 
-imagestring($new_image, 5, 200, 250, $funcao, $textColor);
 
-imagestring($new_image, 5, 623, 61, $nascimento, $textColor);
+imagestring($new_image, 5, 160, 196, $nome, $textColor);
 
-imagestring($new_image, 5, 870, 60, $naturalidade, $textColor);
+imagestring($new_image, 5, 210, 250, $funcao, $textColor);
+
+imagestring($new_image, 5, 623, 132, $nascimento, $textColor);
+
+imagestring($new_image, 5, 645, 60, $naturalidade, $textColor);
 
 imagestring($new_image, 5, 590, 97, $estado, $textColor);
 
 imagestring($new_image, 5, 625, 24, $estadocivil, $textColor);
 
-imagestring($new_image, 5, 615, 132, $expedido, $textColor);
+imagestring($new_image, 5, 770, 258, $expedido, $textColor);
 
 imagestring($new_image, 5, 820, 24, $sexo, $textColor);
 
