@@ -1,81 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>carteirinha</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<title>IEADM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
-<body>
-	
-	<div class="container">
-		<img src="logo.jpg">
-		
-		
-		<form method="post" action="carteirinha2.php">	  
-			<h1>Emissão de Carteiras de Membros</h1>
-			<br>
-			<div class="form-group">
-			    <span>NOME DO MEMBRO</span>
-				<input type="text" class="form-control" name="nome">
-			</div>
+<body class="w3-content" style="max-width:1900px">
 
-			<div class="form-group">
-				<span>FUNÇÃO DO MEMBRO</span>
-				<input type="text" name="funcao" class="form-control">
-			</div>
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:1200px">
+    <div class="w3-padding-64">
+      <h1> SISTEMA IEADM-MT </h1>
+    </div>
+    <div class="w3-padding-64">
+      <a href="carteira.php" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16"></i>EMITIR CARTEIRA DE MEMBROS</a>
+      <a href="carta.php" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16"></i> EMITIR CARTA DE MEMBROS</a>
+    </div>
+  </div>
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16">
+</footer>
 
-			<div class="form-group">
-				<span>ESTADO CIVIL</span>	
-			    <input type="text" name="estadocivil" class="form-control">
-			</div>
-
-			<div class="form-group">
-				<span>GENERO</span>
-				<input type="text" name="sexo" class="form-control" placeholder="Masculino ou Feminio">
-			</div>
-
-			<div class="form-group">
-				<span>DATA DE NASCIMENTO</span>
-				<input type="date" name="nascimento" class="form-control">
-			</div>
-
-			<div class="form-group">
-				<span>CIDADE ONDE NASCEU </span>
-				<input type="text" name="naturalidade" class="form-control">
-			</div>
-
-			<div class="form-group">
-				<span>PAÍS ONDE NASCEU</span>
-				<input type="text" name="nacionalidade" class="form-control">
-			</div>
-
-			<div class="form-group">
-				<span>ESTADO ONDE NASCEU</span>
-				<input type="text" name="estado" class="form-control">
-			</div>
-
-			<div class="form-group">
-				<span>CPF</span>
-				<input type="text" name="cpf" class="form-control">
-			</div>
-
-			<br>
-
-			<button type="submit" class="btn btn-primary">EMITIR CARTEIRINHA</button>
-		</form>
-		
-		
-	</div>
-	<div >
-		
-	</div>
-
-
-
-
-
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
-
